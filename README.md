@@ -1,28 +1,24 @@
 ## Plant Disease Detector
 <br>
-<img src="app/static/img1.png">
+<img src='https://raw.githubusercontent.com/shivam1808/Docker_Care_Green/master/Pic1.PNG' border='0' alt='Plant Disease Detection'/>
+<img src='https://raw.githubusercontent.com/shivam1808/Docker_Care_Green/master/pic2.PNG' border='0' alt='Plant Disease Detection'/>
+<img src='https://raw.githubusercontent.com/shivam1808/Docker_Care_Green/master/pic3.PNG' border='0' alt='Plant Disease Detection'/>
+<img src='https://raw.githubusercontent.com/shivam1808/Docker_Care_Green/master/pic4.PNG' border='0' alt='Plant Disease Detection'/>
 <br>
 <p align="center">
-  <sub>Created by <a href="https://github.com/imskr"><strong>Shubham Kumar</strong></a>
+  <sub>Created by <a href="https://github.com/shivam1808"><strong>Shivam Gupta</strong></a>
 </p>
 <hr noshade>
 <br>
 
-## Visit: [Plant-Disease-Detector](http://plantdisease.ap-south-1.elasticbeanstalk.com/)
-
-## My Article in [TowardsDataScience](https://t.co/iVmRCeUiDI?amp=1)
 
 Training and evaluating state-of-the-art deep architectures for plant disease classification task using pyTorch. <br/>
 Models are trained on the preprocessed dataset which can be downloaded [here](https://drive.google.com/open?id=0B_voCy5O5sXMTFByemhpZllYREU).<br/>
-Dataset is consisted of **38** disease classes from [PlantVillage](https://plantvillage.org/) dataset and **1** background class from Stanford's open dataset of background images - [DAGS](http://dags.stanford.edu/projects/scenedataset.html).
+Dataset is consisted of **38** disease classes from [PlantVillage](https://plantvillage.org/) dataset and **1** background class from Stanford's open dataset of background images.
 <br/>
 **80%** of the dataset is used for training and **20%** for validation.
 <br>
 
-## Configuration
-| Model        | Library |Training Platform | Accuracy |
-| ------------- |:-------------:|:-----------------:|:-------------:|
-| Resnet34       | Fastai      |    Google Cloud Platform           |   99.654%     | 
 
 ## Dataset Description:
 
@@ -42,9 +38,3 @@ Dataset is consisted of **38** disease classes from [PlantVillage](https://plant
 | Squash    |     01        | 'Squash___Powdery_mildew' |
 | Strawberry|     02        | 'Strawberry___Leaf_scorch','Strawberry___healthy' |
 | Tomato    |     10        | Tomato: 'Bacterial_spot','Early_blight', 'Late_blight', 'Leaf_Mold', 'Septoria_leaf_spot', 'Spider_mites','Target_Spot', 'Yellow_Leaf_Curl_Virus', 'Mosaic_virus', 'Healthy' |
-
-<br>
-<p align='center'>
-  <a href="https://www.buymeacoffee.com/imskr" target="_blank"><img   src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-</p>
-"# Docker_CareGreen" 
