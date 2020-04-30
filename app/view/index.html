@@ -1,0 +1,61 @@
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <link rel='stylesheet' href='../static/style.css' type="text/css">
+  <script src='../static/client.js'></script>
+</head>
+<body background='../static/bg2.jpg'>
+<div>
+  <div class='center'>
+    <div class='title'>
+      <div class="heading"></div>
+      <div><h2 class="top">Green: Crop Disease Detection</h2></div>
+    </div>
+    <p class="upload">
+      <strong><h2>Upload a picture of a plant leaf!</h2> </strong>
+    </p>
+    <div class='content'>
+      <div class='no-display'>
+        <input id='file-input'
+               class='no-display'
+               type='file'
+               name='file'
+               accept='image/*'
+               onchange='showPicked(this)'>
+      </div>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      <div class='upload-label'>
+        <label id='upload-label'>No file chosen</label>
+      </div>
+      <div>
+        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+      </div>
+      <div class='analyze'>
+        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Detect</button>
+      </div>
+      <div class='result-label'>
+        <label id='result-label'></label>
+      </div>
+      <div>
+          <img class="image-icon" src="../static/c1.png">
+          <img class="image-icon" src="../static/c2.png">
+          <img class="image-icon" src="../static/c3.png">
+          <img class="image-icon" src="../static/c4.png">
+          <img class="image-icon" src="../static/c5.png">
+          <img class="image-icon" src="../static/c6.png">
+          <img class="image-icon" src="../static/c7.png">
+          <img class="image-icon" src="../static/c8.png">
+          <img class="image-icon" src="../static/c9.png">
+          <img class="image-icon" src="../static/c10.png">
+          <img class="image-icon" src="../static/c11.png">
+          <img class="image-icon" src="../static/c12.png">
+          <img class="image-icon" src="../static/c13.png">
+          <img class="image-icon" src="../static/c14.png">
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+</body>
+</html>

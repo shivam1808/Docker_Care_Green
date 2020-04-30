@@ -1,0 +1,104 @@
+body {
+    background-color: #fff;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.no-display {
+    display: none;
+}
+
+.center {
+    margin: 0px auto;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    color: #262626;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    margin-top: 3em;
+}
+
+.top {
+    margin-left: 65px;
+}
+.heading{
+    width: 180px;
+    height: 150px;
+    background-image: url(../static/logo-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    margin: auto 15px;
+}
+
+.analyze {
+    margin-top: 5em;
+}
+
+.upload {
+    margin-top: -2.5em;
+}
+
+.upload-label {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.result-label {
+    margin-top: 0.5em;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button.choose-file-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #7052CB;
+    font-size: 16px;
+    color: #7052CB;
+}
+
+button.analyze-button {
+    width: 200px;
+    height: 40px;
+    border: solid 1px #7052CB;
+    border-radius: 5px;
+    background-color: #7052CB;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+button:focus {
+    outline: 0;
+}
+
+button.analyze-button:hover {
+    opacity: 0.8;
+    background-color: rgb(156, 136, 214);
+}
+
+.image-icon {
+    width: 70px;
+    height: 70px;
+    margin: 10px 5px 0 5px;
+}
+
+.image-icon:hover {
+    opacity: 0.8;
+    width: 75px;
+    height: 75px;
+}
