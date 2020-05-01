@@ -1,4 +1,6 @@
-## Plant Disease Detector
+## Care Green: Plant Disease Detector
+A WebApp build using flask on platform Docker. This app will detect any disease which is present on the plant.
+This app take picture of plant leaf as an input and provide this name of the disease (if any) through which plant is infected.
 <br>
 <img src='https://raw.githubusercontent.com/shivam1808/Docker_Care_Green/master/Pic1.PNG' border='0' alt='Plant Disease Detection'/>
 <img src='https://raw.githubusercontent.com/shivam1808/Docker_Care_Green/master/pic2.PNG' border='0' alt='Plant Disease Detection'/>
