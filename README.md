@@ -3,7 +3,7 @@ A WebApp build using flask on platform Docker. This app will detect any disease 
 This app take picture of plant leaf as an input and provide this name of the disease (if any) through which plant is infected.
 
 <p align="center">
-  <sub>FOR DOCKER PROJECT 1: <a href="https://github.com/shivam1808/Docker_Covid_Map"><strong>Covid-19 Map</strong></a>
+  FOR DOCKER PROJECT 1: <a href="https://github.com/shivam1808/Docker_Covid_Map"><strong>Covid-19 Map</strong></a>
 </p>
  
 <br>
